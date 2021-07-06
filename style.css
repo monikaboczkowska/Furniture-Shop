@@ -1,0 +1,486 @@
+body {
+    font-family: 'Berkshire Swash', cursive;
+}
+
+/* GENERAL SECTION  */
+
+.banner-products {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://pliki.propertydesign.pl/i/06/75/61/067561_r0_1140.jpg) center/cover fixed no-repeat;
+    height: 60vh;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-single-products {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://www.meblobranie.pl/porady/wp-content/uploads/2019/01/actona_astro_fotel_do_salonu_petrol.jpeg) center/cover fixed no-repeat;
+    height: 60vh;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-store {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://www.maxfliz.pl/storage/image/core_files/2020/1/21/fe796aac0ee0faf8556faf64ef0f6bd1/admin/preview/wloskie-meble-fotel-bonaldo-lock.jpg) center/cover fixed no-repeat;
+    height: 60vh;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* NAVBAR SECTION  */
+
+.logo {
+    height: 3rem;
+    padding-left: 1rem;
+}
+.navbar-toggler {
+    outline: none!important;
+    border: none;
+    font-size: 2.2rem;
+    color: #023E8A!important;
+}
+.nav-link {
+    font-size: 1.6rem;
+    border-bottom: 0.1rem solid transparent;
+    color: #023E8A!important;
+}
+.nav-link:hover {
+    color: #00AFB9!important;
+}
+.nav-active {
+    border-bottom: 0.1rem solid #023E8A;
+}
+.navbar-icon {
+    font-size: 1.6rem;
+    color: #023E8A!important;
+}
+.navbar-icon:hover {
+    color: #00AFB9!important;
+}
+.navbar-cart-icon {
+    color: #023E8A;
+    position: relative;
+}
+.navbar-cart-icon:hover {
+    color: #00B4D8;
+}
+.cart-items {
+    color: #0096C7;
+    position: absolute;
+    top: -15%;
+    right: -50%;
+    padding: 0.2rem 0.3rem;
+    background-color: #f5f5f5;
+    font-size: 1rem;
+    border-radius: 50%;
+}
+
+/* BANNER SECTION  */
+
+.text-blue {
+    color: #023E8A;
+}
+.banner {
+    background-image: url(img/banner.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: calc(100vh - 74px);
+    object-fit: cover;
+}
+.btn-blue {
+    border: 0.1rem solid #023E8A;
+    color: #023E8A;
+    margin-top: 1.5rem;
+}
+.btn-blue:hover {
+    color: #f5f5f5;
+    background-color: #023E8A;
+}
+
+/* FEATURED SECTION  */
+
+.old-price {
+    text-decoration: line-through;
+    font-size: 1.2rem;
+}
+.featured-container {
+    border: 0.1rem solid #f5f5f5;
+    position: relative;
+    overflow: hidden;
+    object-fit: cover;
+}
+.featured-search-icon {
+    background-color: #023E8A;
+    display: inline-block;
+    color: #f5f5f5!important;
+    padding: 0.2rem 0.5rem;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    font-size: 1.2rem;
+    transform: translateX(110%);
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+.featured-container:hover .featured-search-icon {
+    transform: translateX(0%);
+}
+.featured-store-link {
+    background-color: #0096C7;
+    color: #f5f5f5;
+    text-decoration: none!important;
+    padding: 0.2rem 0.5rem;
+    position: absolute;
+    right: 0;
+    top: 65%;
+    transform: translateX(110%);
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+}
+.featured-container:hover .featured-store-link {
+    transform: translateX(0%);
+}
+.featured-store-link:hover {
+    background-color: #f5f5f5;
+    color: #0096C7;
+}
+
+/* CAROUSEL SECTION  */
+
+.partners {
+    background: #f5f5f5;
+}
+.carousel-control-prev,
+.carousel-control-next {
+    color: cadetblue;
+    font-size: 3rem;
+}
+.carousel-control-prev {
+    margin-left: -30%;
+}
+.carousel-control-next {
+    margin-right: -30%;
+}
+.carousel-control-prev:hover {
+    color: dimgrey;
+}
+.carousel-control-next:hover {
+    color: dimgrey;
+}
+
+/* NEWSLETTERS SECTION  */
+
+.btn-info:hover {
+    background: #f5f5f5;
+    color: #17a2b8;
+    border: 0.1rem solid #17a2b8;
+}
+.form-control {
+    font-size: 1rem;
+}
+.form-icon {
+    color: #f5f5f5;
+    background: #17a2b8;
+    border: 0.1rem solid #17a2b8;
+}
+
+/* SKILLS SECTION  */
+
+.skills {
+    background-color: #353535;
+}
+.skills-icon {
+    font-size: 2.5rem;
+    padding-right: 1rem;
+}
+
+/* FOOTER SECTION  */
+
+.footer {
+    background: #d9d9d9;
+}
+.text-footer {
+    color: #023E8A;
+}
+.border-footer {
+    border: 0.3rem solid #023E8A;
+    padding: 0.5rem 0.2rem;
+}
+.footer-icon {
+    font-size: 1.5rem;
+    color: #023E8A;
+}
+.footer-icon:hover {
+    color: #353535;
+}
+
+/**************  PRODUCTS SECTION  *****************************/
+
+.banner-info {
+    display: flex;
+    align-items: center;
+}
+
+/**************  SERVICE SECTION  *****************************/
+
+.service-icon {
+    font-size: 3rem;
+    color: #023E8A;
+}
+
+/**************  CATEGORIES SECTION  *****************************/
+
+.category-container {
+    border: 0.1rem solid #f5f5f5;
+    position: relative;
+    object-fit: cover;
+}
+.category-container:hover .category-img {
+    opacity: 0.5;
+}
+.category-img {
+    transition: all 1s linear;
+    object-fit: cover;
+}
+.category-link {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0.2rem 3rem 0.2rem 0.2rem;
+    background: #f5f5f5;
+    clip-path: polygon(0 0, 80% 0, 100% 100%, 0 100%);
+    opacity: 0;
+    transition: all 1s linear;
+}
+.category-container:hover .category-link {
+    opacity: 1;
+}
+.categories-underline {
+    background: #023E8A;
+    height: 0.1rem;
+    width: 5rem;
+}
+.text-categories {
+    text-decoration: none!important;
+    color: #023E8A!important;
+}
+.text-categories:hover {
+    color: #17a2b8!important;
+}
+.category-link {
+    color: #000;
+    text-decoration: none!important;
+}
+.category-link:hover {
+    color: #17a2b8!important;
+    text-decoration: none;
+}
+
+/**************  FILLER SECTION  *****************************/
+
+.filler {
+    height: 60vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://images.pexels.com/photos/1652402/pexels-photo-1652402.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) bottom/cover fixed no-repeat;
+}
+.collection-underline {
+    background: #17a2b8;
+    height: 0.1rem;
+    width: 5rem;
+    margin: 0 auto;
+}
+.collection-link {
+    color: #17a2b8!important;
+    text-decoration: none!important;
+}
+.collection-link:hover {
+    color: #f5f5f5!important;
+}
+
+/**************  PRODUCTS SECTION  *****************************/
+
+.products-categories-underline {
+    background: #17a2b8!important;
+    height: 0.1rem;
+    width: 5rem;
+}
+.products-color {
+    width: 1rem;
+    height: 1rem;
+    border: 0.1rem solid #fff;
+}
+.text-color {
+    color: #17a2b8!important;
+    text-decoration: none!important;
+}
+.text-color:hover {
+    text-decoration: none!important;
+}
+.products-categories-link {
+    color: #000;
+    text-decoration: none!important;
+}
+.products-categories-link:hover {
+    color: #17a2b8!important;
+}
+.products-color-black {
+    background: #000;
+}
+.products-color-red {
+    background: red;
+}
+.products-color-blue {
+    background: #17a2b8;
+}
+.products-color-yellow {
+    background: yellow;
+}
+.products-color-green {
+    background: green;
+}
+.form-group {
+    color: #17a2b8!important;
+}
+
+/**************  SINGLE PRODUCTS SECTION  *****************************/
+
+img {
+    vertical-align: center;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+
+.container {
+    position: relative;
+}
+
+/* Hide the images by default */
+
+.mySlides {
+    display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+
+.cursor {
+    cursor: pointer;
+}
+
+/* Next & previous buttons */
+
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+.prev {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* Container for image text */
+
+.caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Six columns side by side */
+
+.column {
+    float: left;
+    width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+
+.demo {
+    opacity: 0.6;
+}
+.active,
+.demo:hover {
+    opacity: 1;
+}
+.symbol-minus,
+.symbol-number,
+.symbol-plus,
+.symbol-wishlist,
+.symbol-addToCart {
+    border: 0.1rem solid #17a2b8!important;
+    border-radius: 0!important;
+}
+.symbol-minus,
+.symbol-number,
+.symbol-plus,
+.symbol-wishlist:hover {
+    border: 0.1rem solid #17a2b8!important;
+    background: #17a2b8!important;
+    color: #fff;
+}
+.symbol-addToCart:hover {
+    background: #fff!important;
+    color: #17a2b8!important;
+}
+.rating-icon {
+    color: orange;
+}
+.product-info-link {
+    text-decoration: none!important;
+    color: #17a2b8!important;
+}
+.product-info-link:hover {
+    color: #023E8A!important;
+}
+.bg-cart {
+    background-color: #f5f5f5;
+}
